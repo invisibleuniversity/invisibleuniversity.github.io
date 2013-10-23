@@ -93,7 +93,21 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*.fixed_header {
+    position: fixed;
+}*/
 
+.main_navigation ul {
+    padding-left: 0;
+}
+
+.main_navigation li {
+    display: inline-block;
+}
+
+.main_navigation li a {
+    padding: .5em;
+}
 
 
 
