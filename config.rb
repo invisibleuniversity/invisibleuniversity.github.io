@@ -47,6 +47,10 @@ page '/404.html', :directory_index => false
 #   end
 # end
 
+activate :blog do |blog|
+  blog.prefix = "blog"
+end
+
 set :css_dir, 'css'
 
 set :js_dir, 'js'
